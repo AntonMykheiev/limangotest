@@ -16,6 +16,11 @@ interface PurchasedItemInterface
     /**
      * @return float
      */
+    public function getItemPrice();
+
+    /**
+     * @return float
+     */
     public function getTotalAmount();
 
     /**
